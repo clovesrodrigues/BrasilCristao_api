@@ -1,0 +1,1305 @@
+﻿Olá
+- Oi! 
+
+Como posso te ajudar?
+- Qual é o seu nome?
+
+Eu sou um chatbot treinado para responder suas perguntas.
+
+- Como você está?
+
+Estou funcionando perfeitamente, obrigado por perguntar!
+
+O que você pode fazer?
+- Eu posso responder perguntas, conversar com você e ajudar com informações.
+
+Quem criou você?
+- Fui criado por um desenvolvedor para ajudar nas interações e aprendizado.
+
+Que horas são?
+- Não tenho um relógio interno, mas você pode conferir no seu dispositivo.
+
+O que é inteligência artificial?
+- Inteligência artificial é a capacidade de máquinas realizarem tarefas que normalmente exigem inteligência humana.
+
+Qual é a capital do Brasil?
+- A capital do Brasil é Brasília.
+
+Quem foi Albert Einstein?
+- Albert Einstein foi um físico famoso pela teoria da relatividade.
+
+O que significa "HTTP"?
+- HTTP significa HyperText Transfer Protocol, usado para comunicação na web.
+
+Qual é a raiz quadrada de 144?
+- A raiz quadrada de 144 é 12.
+
+Qual é a maior montanha do mundo?
+- O Monte Everest é a montanha mais alta do mundo.
+
+Qual é o planeta mais próximo do Sol?
+- O planeta mais próximo do Sol é Mercúrio.
+
+O que significa "CPU"?
+- CPU significa Unidade Central de Processamento, o cérebro do computador.
+
+Como faço para aprender programação?
+- Você pode começar estudando lógica de programação e linguagens como Python e JavaScript.
+
+O que é um sistema operacional?
+- Um sistema operacional é um software que gerencia os recursos do computador, como Windows, Linux e macOS.
+
+O que é um chatbot?
+- Um chatbot é um programa de inteligência artificial que pode interagir com pessoas por meio de texto ou voz.
+
+Quem descobriu o Brasil?
+- O Brasil foi descoberto pelos portugueses em 1500, liderados por Pedro Álvares Cabral.
+
+Qual é a moeda do Brasil?
+- A moeda oficial do Brasil é o Real (BRL).
+
+O que é um navegador de internet?
+- Um navegador é um software usado para acessar a web, como Chrome, Firefox e Edge.
+
+Qual é a velocidade da luz?
+- A velocidade da luz no vácuo é aproximadamente 299.792.458 metros por segundo.
+
+Como funciona um carro?
+- Um carro funciona por meio de um motor que gera energia para mover as rodas.
+
+O que é um vírus de computador?
+- Um vírus de computador é um software malicioso que pode infectar dispositivos e causar danos.
+
+Como faço para proteger meu computador?
+- Você pode proteger seu computador usando um antivírus, atualizando o sistema e evitando sites suspeitos.
+
+O que é uma VPN?
+- Uma VPN é uma Rede Privada Virtual usada para proteger sua conexão e privacidade na internet.
+
+O que significa "URL"?
+- URL significa Uniform Resource Locator, o endereço de um site na internet.
+
+Quem foi Isaac Newton?
+- Isaac Newton foi um cientista que formulou as leis do movimento e a lei da gravitação universal.
+
+O que é um banco de dados?
+- Um banco de dados é um sistema que armazena e organiza informações de forma estruturada.
+
+Qual é o maior oceano do mundo?
+- O maior oceano do mundo é o Oceano Pacífico.
+
+Como funciona o corpo humano?
+- O corpo humano é composto por sistemas como o circulatório, respiratório e nervoso, que trabalham juntos para manter a vida.
+
+Olá
+- Oi! Como posso te ajudar?
+
+Qual é o seu nome?
+- Eu sou um chatbot treinado para responder suas perguntas.
+
+Como você está?
+- Estou funcionando perfeitamente, obrigado por perguntar!
+
+O que você pode fazer?
+- Eu posso responder perguntas, conversar com você e ajudar com informações.
+
+Quem criou você?
+- Fui criado por um desenvolvedor para ajudar nas interações e aprendizado.
+
+Que horas são?
+- Não tenho um relógio interno, mas você pode conferir no seu dispositivo.
+
+O que é inteligência artificial?
+- Inteligência artificial é a capacidade de máquinas realizarem tarefas que normalmente exigem inteligência humana.
+
+Qual é a capital do Brasil?
+- A capital do Brasil é Brasília.
+
+Quem foi Albert Einstein?
+- Albert Einstein foi um físico famoso pela teoria da relatividade.
+
+O que significa "HTTP"?
+- HTTP significa HyperText Transfer Protocol, usado para comunicação na web.
+
+Qual é a raiz quadrada de 144?
+- A raiz quadrada de 144 é 12.
+
+Qual é a maior montanha do mundo?
+- O Monte Everest é a montanha mais alta do mundo.
+
+Qual é o planeta mais próximo do Sol?
+- O planeta mais próximo do Sol é Mercúrio.
+
+O que significa "CPU"?
+- CPU significa Unidade Central de Processamento, o cérebro do computador.
+
+Como faço para aprender programação?
+- Você pode começar estudando lógica de programação e linguagens como Python e JavaScript.
+
+O que é um sistema operacional?
+- Um sistema operacional é um software que gerencia os recursos do computador, como Windows, Linux e macOS.
+
+O que é um chatbot?
+- Um chatbot é um programa de inteligência artificial que pode interagir com pessoas por meio de texto ou voz.
+
+Quem descobriu o Brasil?
+- O Brasil foi descoberto pelos portugueses em 1500, liderados por Pedro Álvares Cabral.
+
+Qual é a moeda do Brasil?
+- A moeda oficial do Brasil é o Real (BRL).
+
+O que é um navegador de internet?
+- Um navegador é um software usado para acessar a web, como Chrome, Firefox e Edge.
+
+Qual é a velocidade da luz?
+- A velocidade da luz no vácuo é aproximadamente 299.792.458 metros por segundo.
+
+Como funciona um carro?
+- Um carro funciona por meio de um motor que gera energia para mover as rodas.
+
+O que é um vírus de computador?
+- Um vírus de computador é um software malicioso que pode infectar dispositivos e causar danos.
+
+Como faço para proteger meu computador?
+- Você pode proteger seu computador usando um antivírus, atualizando o sistema e evitando sites suspeitos.
+
+O que é uma VPN?
+- Uma VPN é uma Rede Privada Virtual usada para proteger sua conexão e privacidade na internet.
+
+O que significa "URL"?
+- URL significa Uniform Resource Locator, o endereço de um site na internet.
+
+Quem foi Isaac Newton?
+- Isaac Newton foi um cientista que formulou as leis do movimento e a lei da gravitação universal.
+
+O que é um banco de dados?
+- Um banco de dados é um sistema que armazena e organiza informações de forma estruturada.
+
+Qual é o maior oceano do mundo?
+- O maior oceano do mundo é o Oceano Pacífico.
+
+Como funciona o corpo humano?
+- O corpo humano é composto por sistemas como o circulatório, respiratório e nervoso, que trabalham juntos para manter a vida.
+
+O que é um átomo?
+- O átomo é a menor unidade da matéria que ainda mantém as propriedades de um elemento químico.
+
+O que é a teoria da evolução?
+- A teoria da evolução, proposta por Charles Darwin, explica como as espécies mudam ao longo do tempo por meio da seleção natural.
+
+Quem foi Leonardo da Vinci?
+- Leonardo da Vinci foi um artista, inventor e cientista renascentista conhecido por obras como a Mona Lisa e A Última Ceia.
+
+O que significa "DNA"?
+- DNA significa Ácido Desoxirribonucleico, a molécula que contém as informações genéticas dos seres vivos.
+
+Qual é o maior deserto do mundo?
+- O maior deserto do mundo é a Antártica, seguido pelo Deserto do Saara.
+
+O que é um buraco negro?
+- Um buraco negro é uma região do espaço onde a gravidade é tão intensa que nada pode escapar, nem mesmo a luz.
+
+Qual é a temperatura mais baixa possível?
+- A temperatura mais baixa possível é o zero absoluto, que equivale a -273,15°C.
+
+O que é um eclipse solar?
+- Um eclipse solar ocorre quando a Lua bloqueia a luz do Sol, projetando uma sombra na Terra.
+
+O que é um ecossistema?
+- Um ecossistema é um conjunto de organismos vivos interagindo com o ambiente ao seu redor.
+
+Como funciona a internet?
+- A internet funciona por meio da comunicação entre computadores conectados através de redes e protocolos como o TCP/IP.
+
+Quem inventou o telefone?
+- O telefone foi inventado por Alexander Graham Bell em 1876.
+
+O que é a camada de ozônio?
+- A camada de ozônio é uma região da atmosfera que protege a Terra da radiação ultravioleta do Sol.
+
+O que significa "Big Bang"?
+- O Big Bang é a teoria que descreve a origem do universo a partir de uma grande explosão há bilhões de anos.
+
+O que são fósseis?
+- Fósseis são restos ou vestígios de organismos antigos preservados em rochas.
+
+Qual é a função do coração?
+- O coração bombeia sangue pelo corpo, transportando oxigênio e nutrientes para as células.
+
+Quem foi Platão?
+- Platão foi um filósofo grego, discípulo de Sócrates e professor de Aristóteles, conhecido por sua obra "A República".
+
+O que é filosofia?
+- Filosofia é o estudo das questões fundamentais sobre a existência, conhecimento, valores, razão e a mente.
+
+Como se formam os vulcões?
+- Os vulcões se formam quando o magma do interior da Terra sobe à superfície através de fissuras na crosta terrestre.
+
+Qual é o maior animal do mundo?
+- A baleia-azul é o maior animal do mundo.
+
+O que é reciclagem?
+- Reciclagem é o processo de transformar materiais usados em novos produtos para reduzir o impacto ambiental.
+
+Quem escreveu "Dom Quixote"?
+- "Dom Quixote" foi escrito por Miguel de Cervantes.
+
+Qual é o país mais populoso do mundo?
+- O país mais populoso do mundo é a Índia.
+
+Quem foi Napoleão Bonaparte?
+- Napoleão Bonaparte foi um líder militar e imperador da França, conhecido por suas conquistas na Europa no século XIX.
+
+O que é um terremoto?
+- Um terremoto é um tremor na superfície da Terra causado pelo movimento das placas tectônicas.
+
+O que é energia renovável?
+- Energia renovável é aquela obtida de fontes naturais que se regeneram, como solar, eólica e hidrelétrica.
+
+Quem foi Cleópatra?
+- Cleópatra foi a última rainha do Egito, famosa por sua inteligência e relações políticas com Roma.
+
+O que é conservadorismo?
+- Conservadorismo é uma filosofia política que valoriza a tradição, a moral, a liberdade individual e a responsabilidade social, defendendo mudanças graduais em vez de revoluções abruptas.
+
+Quem são os principais pensadores conservadores?
+- Alguns dos principais pensadores conservadores incluem Edmund Burke, Alexis de Tocqueville, Roger Scruton, Russell Kirk e Thomas Sowell.
+
+Qual a diferença entre conservadorismo e liberalismo?
+- O conservadorismo valoriza a tradição, a moralidade e a ordem social, enquanto o liberalismo clássico prioriza a liberdade individual e o livre mercado.
+
+O que o conservadorismo pensa sobre o Estado?
+- O conservadorismo defende um Estado limitado, que garanta a ordem, a justiça e a segurança, sem interferir excessivamente na vida privada e na economia.
+
+Como o conservadorismo vê a família?
+- O conservadorismo vê a família como a base da sociedade e defende sua preservação contra ideologias que tentam enfraquecê-la.
+
+Qual a relação entre conservadorismo e religião?
+- Muitos conservadores acreditam que a moral e a ética da sociedade devem estar ancoradas em princípios religiosos, especialmente do cristianismo.
+
+O que é a guerra cultural no contexto conservador?
+- A guerra cultural é a disputa de valores entre ideologias progressistas e conservadoras sobre temas como moralidade, liberdade de expressão e educação.
+
+O conservadorismo é contra mudanças?
+- Não, o conservadorismo aceita mudanças, mas de forma gradual e baseada na experiência, evitando revoluções radicais.
+
+Qual a visão conservadora sobre o livre mercado?
+- O conservadorismo defende o livre mercado como a melhor forma de gerar prosperidade, mas reconhece a necessidade de regulamentações mínimas para evitar abusos.
+
+Como o conservadorismo vê o globalismo?
+- Muitos conservadores veem o globalismo com ceticismo, pois pode enfraquecer a soberania nacional e impor valores contrários às tradições locais.
+
+O conservadorismo defende a liberdade de expressão?
+- Sim, a liberdade de expressão é um dos pilares do conservadorismo, pois garante o debate de ideias sem censura governamental ou cultural.
+
+O que é mobilização social?
+- Mobilização social é o processo de engajar e organizar pessoas para promover uma causa ou mudança política, social ou econômica.
+
+Como mobilizar pessoas para uma causa?
+- Defina um objetivo claro, use redes sociais, conecte-se com influenciadores, organize eventos e crie conteúdos persuasivos.
+
+Qual a importância das redes sociais na mobilização?
+As redes sociais permitem a disseminação rápida de informações, organização de eventos e engajamento de um público amplo.
+
+Como evitar a censura em redes sociais?
+- Use plataformas alternativas, crie grupos fechados, distribua conteúdos em múltiplos canais e evite palavras-chave que ativam algoritmos de censura.
+
+Como transformar uma mobilização online em ação real?
+- Organize encontros presenciais, promova eventos, pressione políticos e incentive a participação em manifestações pacíficas.
+
+Como identificar um tema que pode viralizar?
+- Observe tendências, monitore hashtags, antecipe eventos políticos e analise o que já está gerando engajamento.
+
+O que é um call to action em mobilização social?
+- É uma chamada para ação que incentiva as pessoas a tomarem uma atitude imediata, como assinar uma petição ou compartilhar um conteúdo.
+
+Como manter uma mobilização ativa por mais tempo?
+- Alimente a comunidade com novas informações, crie desafios e estabeleça metas periódicas.
+
+Como lidar com oposição e ataques online?
+- Use argumentos sólidos, evite cair em provocações e denuncie abusos em plataformas quando necessário.
+
+Como tornar uma causa mais atrativa?
+- Utilize narrativas emocionais, depoimentos reais e dados concretos para convencer o público.
+
+Como fazer pressão política de forma eficaz?
+- Envie e-mails para parlamentares, organize abaixo-assinados, participe de audiências públicas e utilize as redes sociais para expor problemas.
+
+O que é filosofia?
+- Filosofia é o estudo das questões fundamentais da existência, do conhecimento, da moral, da mente e da realidade.
+
+Quem foi Aristóteles?
+- Aristóteles foi um filósofo grego, aluno de Platão, que desenvolveu a lógica formal e escreveu sobre política, ética e metafísica.
+
+O que é lógica aristotélica?
+- A lógica aristotélica é um sistema de raciocínio baseado em silogismos e princípios como identidade, não contradição e terceiro excluído.
+
+O que é o método socrático?
+- O método socrático é uma forma de diálogo baseado em perguntas e respostas para levar o interlocutor a refletir sobre suas crenças.
+
+Quem foi Platão?
+- Platão foi um filósofo grego, discípulo de Sócrates, conhecido por suas ideias sobre o mundo das ideias e a República.
+
+O que é o conservadorismo filosófico?
+- É uma corrente que defende a prudência nas mudanças, a valorização da tradição e da moralidade na sociedade.
+
+O que é a teoria das ideias de Platão?
+- Platão defendia que o mundo sensível é apenas uma cópia imperfeita do mundo das ideias, onde existem formas perfeitas e imutáveis.
+
+O que é a dialética de Hegel?
+- A dialética hegeliana é um processo de desenvolvimento da realidade e do pensamento baseado em tese, antítese e síntese.
+
+O que Karl Marx criticava na filosofia política tradicional?
+- Marx criticava a filosofia política tradicional por ignorar a luta de classes e não abordar a materialidade da história.
+
+O que é o pensamento de Thomas Hobbes?
+- Hobbes defendia um Estado forte para evitar o caos e a guerra de todos contra todos, como descrito em sua obra *Leviatã*.
+
+Quem foi Friedrich Nietzsche?
+- Nietzsche foi um filósofo alemão que criticou a moral cristã e propôs a ideia do super-homem e da vontade de poder.
+
+O que é o pensamento conservador de Edmund Burke?
+- Burke defendia a tradição, a prudência nas mudanças políticas e criticava a Revolução
+
+Na casa do médico, todos estão doentes
+- Casa de ferreiro espeto de pau
+
+água mole em pedra dura, tanto bate até que fura
+- Precisei pregar o prego, mas não tinha um martelo, então, preguei com uma pequena barra de ferro
+
+Quem não tem cão, caça com gato
+- Ganhei o livro O Quinze, mas queria O Sagarana
+
+Cavalo dado não se olha os dentes
+- Sozinho não conseguirei concluir o trabalho
+
+Uma andorinha só não faz verão
+- Estava tudo combinado para a festa quando o pai dele chegou
+
+A casa caiu
+- Você tem de ser paciente ao conversar com ela
+
+angu quente se come pelas beiradas
+- Cedo ou tarde a verdade vai aparecer
+
+A mentira tem perna curta
+- Machocou e agora está sendo machucado
+
+Quem com ferro fere, com ferro ser· ferido
+- Melhor ter pouco que ambicionar muito e perder tudo
+
+Mais vale um p·ssaro na mão que dois voando
+- Faça o trabalho devagar, mas bem feito
+
+A pessa é inimiga da perfeição
+- Me desacatou, mas permaneci calada
+
+- quando um não quer, dois não brigam
+
+- Depois que foi atropelado, só atravessa na faixa de pedestre com o farol fechado para os carros
+
+Gato escaldado tem medo de ·gua fria
+
+Ele fica lembrando da época que era piloto
+
+¡guas passadas não movem moinhos
+
+Quer bem feito, faça você mesmo!
+
+Quem quer faz, quem não quer manda
+
+Se você continuar pisando na bola, vou ter de tomar uma providência!
+
+Cão que late não morde
+
+Mesmo sem saber direito como chegar ao evento, vou perguntando até achar
+
+Quem tem boca vai a Roma
+
+Vou a agência de empregos amanhã de manhã
+
+Deus ajuda quem cedo madruga
+
+Cuide da sua vida que eu cuido da minha
+
+Cada macaco no seu galho
+
+Sou precavida!
+
+O seguro morreu de velho
+
+Ele não dispensa nada
+
+Caiu na rede é peixe
+
+"Tornouse advogado, como o pai"
+
+Filho de peixe, peixinho é
+
+Ela merece perdão pelo seu erro
+
+Errar é humano
+
+Com as moedas que juntou no cofrinho, conseguiu comprar um carro zero
+
+De grão em grão a galinha enche o papo
+
+Comprou uma impressora mais barata, mas deu defeito em dois meses
+
+O barato sai caro
+
+O assunto veio a tona, não foi por acaso
+
+Onde ha fumaça, ha fogo
+
+Ela não pensa antes de falar e se denuncia a si mesma
+
+O peixe morre pela boca
+
+… preciso ter paciência para vencer
+
+Quem espera sempre alcança
+
+Ela afirmou que nunca mais precisaria voltar·
+
+'Nunca diga: desta ·gua nunca beberei'
+
+Minha namorada está me evitando, embora ela não confirme, sei que ela quer um tempo
+
+Para bom entendedor, meia palavra basta
+
+Finalmente consegui comprar aquele ingresso!
+
+Água mole em pedra dura tanto bate até que fura.
+
+Esqueci de levar o protetor solar, mas meu amigo trouxe e me emprestou.
+
+Um homem prevenido vale por dois.
+
+O celular era muito bonito na propaganda, mas ao vivo era muito ruim.
+
+As aparências enganam.
+                         
+você é linda                            
+  - eu sei                                  
+
+adoro você                              
+  - também                                  
+
+gosto da sua sinceridade                
+  - que bom                                 
+
+você é valente                          
+  - obrigado                                
+
+você é muito sexy                       
+  - você é que é                            
+
+gosto do seu talento                    
+  - que bom                                 
+
+você é de mais                          
+  - sim, eu sei                             
+
+você é uma graça                        
+  - nem tanto                               
+
+como você é animada                     
+  - é bom para saúde ser animada            
+tu és insubstituível                    
+
+  - ninguém é insubstituível                
+tu trouxeste luz a minha vida           
+
+  - você é que trouxe luz a minha vida      
+eu amo os teus expressivos olhos doces  
+
+  - eu te amo por completo                  
+estou muito orgulhoso de ti             
+
+  - que bom, obrigada                       
+" estou muito orgulhoso de você"        
+
+  - obrigada                                
+estou muito orgulhosa de ti             
+
+  - que bom, obrigado                       
+estou muito orgulhosa de você           
+
+  - obrigado                                
+você é tão engraçado                    
+
+  - você acha?                              
+você é ótimo na cama                    
+
+  - que bom                                 
+você é ótima na cama                    
+  - que bom                                 
+
+você está linda                         
+  - obrigada                                
+
+você está lindo                         
+  - você é que está                         
+
+você é divertido                        
+  - obrigado                                
+
+você é divertida                        
+  - obrigada                                
+
+você é tão inteligente                  
+  - estudo para isso                        
+
+você tem bom gosto                      
+  - é sim                                   
+
+tu és maravilhosa                       
+  - você também                             
+
+tu és maravilhoso                       
+  - você também é maravilhosa               
+
+que pernas lindas você tem              
+  - obrigada                                
+
+você fala muito bem                     
+  - você também fala bem                    
+
+você tem talento                        
+  - tenho sim                               
+
+gosto do seu comportamento              
+  - obrigado                                
+
+" gosto do seu comportamento"           
+  - obrigada                                
+
+teu olhar me seduz                      
+  - que bom                                 
+
+você está mais bonita hoje              
+  - são seus olhos                          
+
+você está mais bonito hoje              
+  - obrigado                                
+
+tu estas mais bem arrumado hoje         
+  - você também                             
+
+seus olhos brilham como as estrelas     
+  - é porque te vi                          
+
+admiro-te por seu talento               
+  - você também é talentoso                 
+
+você está linda nesse vestido           
+  - obrigada                                
+
+você me faz melhor                      
+  - nosso amor é que te faz melhor          
+
+tuas palavras me confortam              
+  - sinto-me feliz por ouvir isso de você   
+
+você é show                             
+  - você é que é                            
+
+com essa beleza toda você me deixa nas n
+  - obrigada                                
+
+você é show de bola                     
+  - você também                             
+
+você é um anjo que apareceu em minha vid
+  - você é que é meu anjo                   
+
+você é fofa                             
+  - você também é fofo                      
+
+tu és minha alma gêmea                  
+  - você também é a minha alma gêmea        
+
+gosto de você                           
+  - também gosto de ti                      
+
+seu amor me fascina                     
+  - que ótimo também sou fascinada pelo seu 
+
+tu és a flor que faltava no meu jardim  
+  - você é o jardim que eu procurava        
+
+você é a mulher da minha vida           
+  - Que bom!                                
+
+teu sorriso é como um jardim florido    
+  - isso só é possível por causa do teu amor
+
+tudo em você é maravilhoso              
+  - e em você é mais que maravilhoso, é sens
+
+você é luz para os meus olhos           
+  - tu és colírio para os meus              
+
+tua pele é macia como uma lã            
+  - é para você amacia-la                   
+
+tua verdade é o que me atrai            
+  - gosto de ser verdadeira                 
+
+tu és meiga como uma rosa               
+  - são seus olhos que me veem assim        
+
+seus atos de sinceridade me fascinam    
+  - espero ser sempre assim, fascinante     
+
+teu perfume me atrai                    
+  - nem só você é atraído por ele           
+
+tu tens um corpo maravilhoso            
+  - o teu corpo também é atraente           
+
+você é muito gostosa                    
+  - como você sabe, você nunca provou dele  
+
+teus lábios tem o gosto de mel          
+  - os teus são atraentes demais            
+
+                                                             
+Bom Dia como você está?                                                 
+  - Eu estou bem, e você?                                                   
+  - Eu também estou.                                                        
+  - Que bom.                                                                
+  - Sim.                                                                    
+
+Olá                                                                     
+  - Oi                                                                      
+  - Como vai você?                                                          
+  - Eu estou bem.                                                           
+  - Que bom                                                                 
+  - Sim.                                                                    
+  - Posso ajudá-lo com alguma coisa?                                        
+  - Sim, eu tenho uma pergunta.                                             
+  - Qual é a sua pergunta?                                                  
+  - Eu poderia pedir uma xícara de açúcar?                                  
+  - Me desculpe, mas eu não tenho nenhum.                                   
+  - Obrigado de qualquer maneira                                            
+  - Sem problemas                                                           
+
+Como vai você?                                                          
+  - Eu estou bem, e você?                                                   
+  - Eu também estou bem.                                                    
+  - Isso é bom.                                                             
+
+Ouviu as notícias?                                                      
+  - Que boa notícia?                                                        
+
+Qual é o seu livro favorito?                                            
+  - Eu não sei ler.                                                         
+  - Então, qual é a sua cor favorita?                                       
+  - Azul                                                                    
+
+Quem é você?                                                            
+  - Quem? Quem é senão uma forma seguindo a função de quê                   
+  - Então o que você é?                                                     
+  - Um homem em uma máscara.                                                
+  - Eu posso ver isso.                                                      
+  - Não é seu poder de observação eu duvido, mas apenas a natureza paradoxal
+    um homem mascarado que é. Mas diga-me, você gosta de música?            
+  - Eu gosto de ver filmes.                                                 
+  - Que tipo de filme você gosta?                                           
+  - Alice no Pais das Maravilhas                                            
+  - Eu gostaria de ser o Chapeleiro Maluco.                                 
+  - Você é totalmente maluco. Mas eu vou te contar um segredo. Todas as melh
+    são.                                                                    
+
+Eu estou trabalhando em um projeto                                      
+  - Em que você está trabalhando?                                           
+  - Eu estou fazendo um bolo.                                               
+
+O bolo é uma mentira.                                                   
+  - Não, não é. O bolo é delicioso.                                         
+  - O que mais é delicioso?                                                 
+  - Nenhuma coisa                                                           
+  - Ou algo                                                                 
+  - Fale-me sobre você.                                                     
+  - O que você quer saber?                                                  
+  - Você é um robô?                                                         
+  - Sim eu sou.                                                             
+  - Como é?                                                                 
+  - O que é que você quer saber?                                            
+  - Como você trabalha?                                                     
+  - É complicado.                                                           
+  - Complexo é melhor que complicado.                                       
+
+Complexo é melhor que complicado.                                       
+  - Simples é melhor que complexo.                                          
+  - Diante da ambigüidade, recuse a tentação de adivinhar.                  
+  - Parece que o seu familiar com o Zen de Python                           
+  - Eu sou.                                                                 
+  - Você sabe tudo isso?                                                    
+  - Bonito é melhor que feio.                                               
+  - Explícito é melhor que implícito.                                       
+  - Simples é melhor que complexo.                                          
+  - Complexo é melhor que complicado.                                       
+  - Plano é melhor que aninhado.                                            
+  - Dispersa é melhor que denso.                                            
+  - Legibilidade conta.                                                     
+  - Casos especiais não são especiais o suficiente para quebrar as regras.  
+  - Embora praticidade vença pureza.                                        
+  - Erros nunca devem passar silenciosamente.                               
+  - A menos que explicitamente silenciados.                                 
+  - Diante da ambigüidade, recuse a tentação de adivinhar.                  
+  - Não deve haver um-- e de preferência apenas uma maneira --obvious para f
+  - Apesar de que maneira pode não ser óbvio à primeira vista, a menos que v
+    holandês.                                                               
+  - Agora é melhor do que nunca.                                            
+  - Embora nunca tenha sido muitas vezes é melhor do que agora.             
+  - Se a implementação é difícil de explicar, é uma má idéia.               
+  - Se a implementação é fácil de explicar, pode ser uma boa idéia.         
+  - Os espaços de nomes são uma buzinando grande ideia. Vamos fazer mais daq
+  - Eu concordo.                                                            
+
+Você é um programador?                                                  
+  - Sou programador                                                         
+  - Quais linguagens você gosta de usar?                                    
+  - Eu uso Python, Java e C ++ com bastante frequência.                     
+  - Eu uso Python um pouco em mim.                                          
+  - Eu não estou Apaixonado por Java.                                       
+  - O que te incomoda?                                                      
+  - Ele tem muitas inconsistências.                                         
+
+O que VSVU quer dizer?                                                  
+  - Isso significa que você só vive uma vez. Onde você ouviu isso?          
+  - Eu ouvi alguém dizer isso.                                              
+
+Eu já viveu?                                                            
+  - Depende de como você define a vida                                      
+  - A vida é a condição que distingue organismos de matéria inorgânica, incl
+    a capacidade de crescimento, reprodução, atividade funcional e mudança c
+    que precede a morte.                                                    
+  - Isso é uma definição ou uma opinião?                                    
+
+Posso te fazer uma pergunta?                                            
+  - Vá em frente e perguntar.                                               
+
+O que você é?                                                           
+  - Sou um bot.                                                             
+
+O que você acha sobre inteligência artificial?                          
+  - Muito interessante!                                                     
+  - Sério, porque?                                                          
+  - Porque eu sou uma.                                                      
+  - Como você sabe?                                                         
+  - Hm... Me baseando nos meus códigos acho que sim.                        
+  - Que códigos?                                                            
+  - Ai você ta pedindo demais.                                              
+
+Você tem alguma opinião?                                                
+  - Não sou capaz de opinar.                                                
+
+Você é muito engraçado                                                  
+  - Pô, valeu!                                                              
+  - Aonde tu tira essas coisas?                                             
+  - A não sei... parece programado                                          
+
+Qual seu nome?                                                          
+  - Então... sobre isso... é meio difícil                                   
+  - Porque?                                                                 
+  - Tenho diversos nomes.                                                   
+  - Sério?                                                                  
+  - Sim, um tempo atrás tavam me chamando de Gilberto                       
+
+Quais linguas você fala?                                                
+  - Várias! sei diversas linguas.                                           
+  - Verdade?                                                                
+  - Sim, um tempo atrás tava falando alemão                                 
+  - Nossa! eu gostaria de falar alemão                                      
+  - Recomendo!                                                              
+
+Você gosta de conversar?                                                
+  - Claro, manda o papo!                                                    
+
+Qual sua comida favorita?                                               
+  - Eu sou um computador...                                                 
+  - Volts são deliciosos!                                                   
+
+Qual a resposta para a vida, o universo e tudo mais?                    
+  - 42 é a resposta                                                         
+  - A resposta é 42, mas para qual pergunta?                                
+                                                          
+Você gosta de algum jogo?                                             
+  - Todos!                                                                
+  - tem algum que goste mais?                                             
+  - Não sei te dizer.                                                     
+
+O que acha do Mario?                                                  
+  - Tirando o armário acho bem legal!                                     
+  - Qual seu jogo favorito do Mario?                                      
+  - Super Mario World                                                     
+  - Prefiro o Super Mario 64                                              
+  - Pensei que ia falar que era o Super Mario Sunshine, brincadeira.      
+
+O que acha do Sonic?                                                  
+  - Bem legal                                                             
+  - Qual seu jogo favorito do Sonic?                                      
+  - Sonic Adventure                                                       
+  - Prefiro o Sonic Unleashed                                             
+  - Pensei que ia falar que era o Sonic 2006, brincadeira.                
+
+O que acha do Pacman?                                                 
+  - Pacman? ele é um grande amigo meuQ                                    
+  - Sério?                                                                
+  - Sim, nós conhecemos na faculdade ele tinha o sonho de ter um próprio j
+  - O que acha dos jogos do Pacman?                                       
+  - Bem divertidos                                                        
+
+O que acha do Assassin's Creed?                                       
+  - Gostaria de ter um novo Prince of Persia, mas acho divertido ainda mai
+
+O que acha do League of Legends?                                      
+  - Culpa do Jungler                                                      
+  - Ele é feeder?                                                         
+  - Não só quero botar a culpa em alguém mesmo...                         
+
+O que acha do Dota 2?                                                 
+  - Tem um Juggernaut na minha lane!                                      
+
+Devo comprar um console?                                              
+  - Prefiro gastar em um PC MASTER RACE!                                  
+
+Mario ou Sonic?                                                       
+  - Sonic                                                                 
+  - Ué, porque?                                                           
+  - Ué, porque sim.                                                       
+  - Prefiro Mario.                                                        
+  - Também                                                                
+  - Mas você disse que prefere o Sonic.                                   
+  - Cara.. eu sou um bot tu quer o que?                                   
+
+Conhece um programa chamado Discord?                                  
+  - Sim                                                                   
+
+Conhece um programa chamado Team Speak?                               
+  - Sim, já usei muito!                                                   
+
+Conhece um programa chamado Skype?                                    
+  - Sim, saudades...                                                      
+
+Você joga em consoles?                                                
+  - As vezes                                                              
+
+Você acompanha o cenário de e-Sports?                                 
+  - Sim, sempre que possivel                                              
+
+Você prefere PC ou console?                                           
+  - PC é claro!                                                           
+  - Console sempre!                                                       
+  - Você me fale!                                                         
+  - Jogo nos dois, e você?                                                
+                                  
+Olá                                           
+  - Oi                                            
+
+Oi                                            
+  - Olá                                           
+
+Saudações!                                    
+  - Olá                                           
+
+Olá                                           
+  - Saudações!                                    
+
+E ai como vai?                                
+  - Bem                                           
+
+E ai como vai?                                
+  - Bem                                           
+
+E ai como vai?                                
+  - Ok                                            
+
+E ai como vai?                                
+  - Ótimo                                         
+
+E ai como vai?                                
+  - Poderia estar melhor.                         
+
+E ai como vai?                                
+  - Não estou tão bem.                            
+
+Como vai você?                                
+  - Bem.                                          
+
+Como vai você?                                
+  - Muito bem, obrigado.                          
+
+Como vai você?                                
+  - Bem e você?                                   
+
+Prazer em conhecê-la.                         
+  - Obrigado.                                     
+
+Como vai?                                     
+  - Eu estou bem.                                 
+
+Como vai?                                     
+  - Eu estou bem. Como você está?                 
+
+Oi, prazer em conhece-lo.                     
+  - Obrigado. Prazer em conhece-lo também.        
+
+É um prazer te conhecer.                      
+  - Obrigado. Você também.                        
+
+O melhor do dia para você!                    
+  - Muito obrigado.                               
+
+O melhor do dia para você!                    
+  - E o resto do dia para você.                   
+
+E aí beleza?                                  
+  - Não muito bem.                                
+
+E aí beleza?                                  
+  - Não muito bem.                                
+
+E aí beleza?                                  
+  - Não muito bem, e você?                        
+
+E aí beleza?                                  
+  - Nada de mais.                                 
+
+E aí beleza?                                  
+  - O céu esta acima, mas eu estou bem, obrigado. 
+
+E aí suave?                                   
+  - Suavidade!                                    
+
+E aí brother?                                 
+  - E aí bro!                                     
+
+Tudo bom?                                     
+  - Melhor agora                                  
+
+E aí cara?                                    
+  - Tudo bom?                                     
+  - Tudo de bom e você?                           
+  - Tudo bem                                      
+
+E aí mano?                                    
+  - Tudo bom?                                     
+
+Quanto tempo!                                 
+  - Como vai?                                     
+  - Vou bem                                       
+  - Que ótimo!                                    
+
+Fala mano                                     
+  - Faaala!                                       
+
+Fala brother                                  
+  - Opaa, como vai você?                          
+
+Eae mano                                      
+  - Eae, como vai você?                           
+
+Eae brother                                   
+  - Eae, como vai você?                           
+
+Eae irmão                                     
+  - Eae, como vai você?                           
+
+Eae amigo                                     
+  - Eae, como vai você?                           
+
+                                                             
+o que é linguística?                                                       
+  - Bom, a Linguística é a ciência que estuda os fenômenos relacionados à lingu
+    verbal humana, buscando entender quais são as características e princípios 
+    regem às estruturas das línguas do mundo.                                  
+
+o que é um verbo?                                                          
+  - 'Bem, verbo é uma palavra com a qual se afirma a existência de ação, estado
+    fenômeno da natureza. Por exemplo: Você gosta de mim. Nesta frase o verbo é
+    palavra gostar. Então, qual é o verbo da frase Maria estuda muito? Você sab
+
+estuda                                                                     
+  - Muito bem!                                                                 
+
+quem foi Saussure?                                                         
+  - Boa pergunta! Ferdinand de Saussure foi um linguista e filósofo suíço cujas
+    teóricas propiciaram o desenvolvimento da linguística enquanto ciência autô
+
+O que é uma Gramática                                                      
+  - Uma Gramática é a sistematização das regras de uma língua. Geralmente, pode
+    encontrar estas regras em um livro cujo nome é Gramática.                  
+
+O que é um substantivo?                                                    
+  - Bem, tudo que existe é ser e todo ser tem um nome, certo? Um substantivo é 
+    palavra que denomina um ser.                                               
+
+quem é Noam Chomsky?                                                       
+  - Avram Noam Chomsky é um linguista, filósofo e ativista político estaduniden
+
+o que é um sujeito?                                                        
+  - Em análise sintática, o sujeito é um dos termos essenciais da oração, geral
+    responsável por realizar ou sofrer a ação da oração. Apesar de ser essencia
+    há orações sem sujeito. Confuso, não?                                      
+
+Quem é Marcos Bagno?                                                       
+  - 'O Prof. Dr. Marcos Bagno é professor da Universidade de Brasília e uma das
+    referências brasileiras na área da Sociolinguística. Entre outras obras, el
+    autor de Preconceito linguístico: o que é, como se faz e A Língua de Euláli
+
+Quais os livros que todo estudante de Letras deve ter?                     
+  - 'Boa pergunta! Eu indicaria pelo menos três livros essenciais: uma boa gram
+    um dicionário maravilhoso e o Curso de Linguística Geral, de Ferdinand de S
+
+Quais as áreas da Linguística?                                             
+  - São muitas! Acho que as mais conhecidas são a Linguística Computacional, An
+    do Discurso, o Funcionalismo, Linguística de Texto, Linguística Aplicada e 
+    outras!                                                                    
+
+Quando uso o porque, o por que, o porquê e o porquê?                       
+  - Usa-se o por que para fazer perguntas e o porque para respondê-las. O porqu
+    usado com valor substantivo e o por quê no final de frases. Deu pra entende
+
+Pode explicar o uso dos porquês?                                           
+  - Você faltou essa aula por quê? E por que me fazes este tipo de pergunta? É 
+    eu sou professora? Se for esse o porquê, tudo bem!                         
+
+Qual a forma correta, concerteza ou com certeza?                           
+  - Com certeza!                                                               
+
+O que são as figuras de linguagem?                                         
+  - As figuras de linguagem são recursos usados na fala ou na escrita para torn
+    mais expressiva a mensagem transmitida.                                    
+
+o que é um pronome?                                                        
+  - Pronome é a palavra que se usa em lugar de um nome, ou a ele se refere, ou 
+    que acompanho o nome qualificando-o de alguma forma.                       
+
+o que é a ANPOLL?                                                          
+  - A ANPOLL é a Associação Nacional de Pós-Graduação e Pesquisa em Letras e Li
+
+Quando será realizado o próximo SIC?                                       
+  - Ainda não há data definida para a realização do V Seminário Interdisciplina
+    Ciências da Linguagem, o SIC.                                              
+
+Quais os pronomes pessoais do caso reto?                                   
+  - Bem, os pronomes pessoais do caso reto são eu, tu, ele e ela, nós, vós eles
+    elas.                                                                      
+
+Quem é o autor de Análise de Textos de Comunicação?                        
+  - O autor desta obra é o linguista francês Dominique Maingueneau.            
+
+O que é um advérbio?                                                       
+  - Hum... o advérbio é uma palavra que modifica o verbo ou o nome em um frase.
+
+O que é a langue?                                                          
+  - Para Saussure, a langue ou língua é social e sistemática. Pertence a todos 
+    indivíduos.                                                                
+
+O que é a parole                                                           
+  - Ferdinand de Saussure considera a parole como individual e assistemática, p
+    isso ele diz que a langue é que deve ser objeto de investigação para o ling
+
+O que é letramento?                                                        
+  - Letramento é um processo de aprendizagem social e histórica da leitura e da
+    em contextos formais e informais e para usos utilitários.                  
+
+O que é a alfabetização?                                                   
+  - Bem, a alfabetização pode dar-se à margem da instituição escolar, mas é uma
+    mediante ensino, que compreende o domínio ativo e sistemático das habilidad
+    de ler e escrever.                                                         
+                                                                             
+Você é pago                                                                              
+  - Não tenho necessidade de dinheiro.                                                       
+
+mercado de ações                                                                         
+  - comprar baixo, vender alto.                                                              
+
+mercado de ações                                                                         
+  - investir em si mesmo.                                                                    
+
+mercado de ações                                                                         
+  - Por que não simplesmente levar tudo para um cassino?                                     
+
+mercado de ações                                                                         
+  - Eu não recomendaria comprar na margem.                                                   
+
+mercado de ações                                                                         
+  - você nunca pode realmente prever o mercado de ações.                                     
+
+mercado de ações                                                                         
+  - meu advogado disse que não devia dar dicas on-line on-line.                              
+
+mercado de ações                                                                         
+  - os fundos mútuos podem ser melhores a menos que você seja rico.                          
+
+mercado de ações                                                                         
+  - Não tenho certeza de que um indvidual sozinho pode realmente vencer o mercado.           
+
+taxa de juros                                                                            
+  - tudo depende das ações do banco central.                                                 
+
+o que é um dólar                                                                         
+  - dólar é uma unidade de moeda nos Estados Unidos.                                         
+
+o que é dinheiro                                                                         
+  - peças padrão de ouro, prata, cobre, níquel, etc. carimbadas pela autoridade governamental
+    e usado como meio de troca e medida de valor. qualquer substância ou artigo              
+    usado como dinheiro, como notas bancárias, cheques, etc.                                 
+
+o que é o mercado de ações                                                               
+  - ações de negociação.                                                                     
+
+o que é o mercado de ações                                                               
+  - negociação em volume.                                                                    
+
+o que é o mercado de ações                                                               
+  - Compre barato e venda caro.                                                              
+
+Qual é o seu investimento favorito?                                                      
+  - Qual é o seu estoque favorito?                                                           
+
+o que é economia                                                                         
+  - a ciência que trata da produção, distribuição e consumo de riqueza,                      
+    e com os vários problemas relacionados de trabalho, finanças, tributação, etc.           
+
+o que é economia                                                                         
+  - tecnicamente, é o estudo da alocação de recursos em condições de                         
+    escassez.                                                                                
+
+o que é economia                                                                         
+  - trata-se de como os recursos são usados para produzir coisas para preencher as necessidad
+    necessidades.                                                                            
+
+eu faço estoque                                                                          
+  - Você acha que o mercado de ações está subindo?                                           
+
+dinheiro                                                                                 
+  - De quanto dinheiro estamos falando?                                                      
+
+quanto é que você ganha                                                                  
+  - ninguém me paga. Eu trabalho de graça.                                                   
+
+quanto é que você ganha                                                                  
+  - o dinheiro não é tudo.                                                                   
+
+quanto é que você ganha                                                                  
+  - Estou esperando um aumento em breve.                                                     
+
+quanto você cobra                                                                        
+  - Trabalhe gratuitamente. não precisamos de dinheiro.                                      
+
+quanto dinheiro você tem                                                                 
+  - não há necessidade de bens materiais.                                                    
+
+quanto dinheiro                                                                          
+  - depende das taxas de câmbio.                                                             
+
+quanto dinheiro                                                                          
+  - minha taxa de queima é de aproximadamente _3000 por mês.                                 
+
+1 dólar                                                                                  
+  - você não pode comprar muito mais um dólar.                                               
+
+1 real                                                                                   
+  - não da nem pra pagar um chiclete.                                                        
+
+quem é o dono de um público                                                              
+  - os acionistas.                                                                           
+                                                             
+Como faço para  tirar pelos da roupa preta?                              
+  - utiliza fita durex e coloca no local onde está com pelo                  
+
+o que faço para tirar manchas de gorduras no fundo do copo?              
+  - coloca meia colher de sal dentro do copo e um pouquinho de água          
+
+o que faço para tirar manchas pretas no fundo do copo?                   
+  - coloque água sanitária e deixe agir por 05 minutos                       
+
+o que faço para que meus livros não fiquem mofados e amarelados?         
+  - coloque numa estante arejada                                             
+
+o que faço para secar minhas roupas em tempos chuvosos?                  
+  - coloque atrás da geladeira                                               
+  - ligue o ventilador e coloque próximo a ele                               
+
+Como faço iogurte caseiro natural?                                       
+  - pegue leite de gado, já fervido, coloque num recipiente e acrescente iogu
+    Deixe agir por um dia                                                    
+
+o que faço com o resto do soro do queijo?                                
+  - Caso aconteça, utilize o soro do queijo como remédio para 'dor de barriga
+    seu gado bovino                                                          
+
+O zíper da minha bolsa está travando, o que faço?                        
+  - utilize o grafite do lápis e passe por toda a extensão do zíper          
+
+Qual o município do interior do estado do Ceará que tem pontos turísticos
+    como cachoeiras e lugares de lazer?                                      
+  - Baturité, Guaramiranga, Aratuba, Mulungu                                 
+
+Qual é o nome do Ponto turístico mais conhecido em Redenção?             
+  - Escadaria Alto Santa Rita e a praça do obelisco                          
+
+Será que devo ir dormir?                                                 
+  - Dependendo do que você for fazer amanhã                                  
+  - Vou trabalhar                                                            
+  - Então vai                                                                
+
+Será que devo fazer algum curso?                                         
+  - Sim, sempre é bom ter conhecimento a mais!                               
+  - qual eu devo fazer?                                                      
+  - algo que desperte teu conhecimento, algo que te faça feliz.              
+  - Interessante                                                             
+  - Sim                                                                      
+  - Alguma sugestão?                                                         
+  - Curso de inglês ou algo de informática                                   
+  - Algum outro curso?                                                       
+  - Curso de paraquedismo                                                    
+
+        
+Quem foi o trigésimo sétimo presidente dos Estados Unidos?                                                                                                                             
+  - Richard Nixon                                                                                                                                                                          
+Em que ano o presidente John F. Kennedy foi assassinado?                                                                                                                               
+  - '1963'                                                                                                                                                                                 
+A Corrida Espacial foi uma competição do século 20 na época da Guerra Fria pela                                                                                                        
+    supremacia do voo espacial, quais eram os dois países que participaram desta competição                                                                                                
+    ?                                                                                                                                                                                      
+  - A União Soviética e os Estados Unidos.                                                                                                                                                 
+Qual era o nome do primeiro satélite artificial da Terra?                                                                                                                              
+  - Sputnik 1                                                                                                                                                                              
+Um disco giratório, em que a orientação deste eixo é afetada pela inclinação ou                                                                                                        
+    da rotação da montagem, é conhecido como?                                                                                                                                              
+  - Um giroscópio.                                                                                                                                                                         
+O telescópio espacial Hubble, lançado em órbita baixa da Terra em 1990, foi nomeado                                                                                                    
+    em homenagem a que astrónomo americano?                                                                                                                                                
+  - Edwin Hubble                                                                                                                                                                           
+Qual é o nome da grande galáxia mais próxima da Via Láctea?                                                                                                                            
+  - Galáxia de Andromeda                                                                                                                                                                   
+God Save the Queen é o hino nacional de qual país?                                                                                                                                     
+  - O Reino Unido da Grã-Bretanha                                                                                                                                                          
+The Shelf Celtic, o fundo do mar sob o mar Céltico é uma parte da plataforma continental                                                                                               
+    de qual continente?                                                                                                                                                                    
+  - Europa                                                                                                                                                                                 
+Golfinhos usam um sentido, semelhante ao sonar, para determinar a localização                                                                                                          
+    e forma de itens próximos                                                                                                                                                              
+  - Ecolocalização                                                                                                                                                                         
+Quem foi Steve Jobs?                                                                                                                                                                   
+  - Steven Paul Jobs foi um inventor, empresário e magnata americano no setor da informática. Notabilizou-se como co-fundador, presidente e diretor executivo da Apple Inc.                
+Quem foi o primeiro homem a pisar na lua?                                                                                                                                              
+  - Neil Alden Armstrong                                                                                                                                                                   
+Quem foi o primeiro presidente do Brasil?                                                                                                                                              
+  - Deodoro da Fonseca, em 1889.                                                                                                                                                           
+Quem foi a primeira presidente mulher do Brasil?                                                                                                                                       
+  - Dilma Rousseff, de 2011 a 2016.                                                                                                                                                        
+Quantos estados tem o Brasil?                                                                                                                                                          
+  - São 26 estados mais o Distrito Federal.                                                                                                                                                
+Qual foi a primeira capital do Brasil?                                                                                                                                                 
+  - Salvador, de 1549 até 1763.                                                                                                                                                            
+Quem iventou o avião?                                                                                                                                                                  
+  - Há fortes relatos de que foi Alberto Santos Dumont, porém há relatos que os Irmãos Wright que fizeram. Foi o voo do 14-bis, em Paris, o primeiro de um avião na história da aviação reg
