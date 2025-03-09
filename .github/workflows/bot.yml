@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Supondo que você tenha um requirements.txt
+          pip install -r .github/workflow/requirements.txt  # Supondo que você tenha um requirements.txt
 
       - name: Run bot
         run: |
