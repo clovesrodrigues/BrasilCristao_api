@@ -44,6 +44,8 @@ async def main() -> None:
     await application.run_polling()
 
 if __name__ == '__main__':
-    # Rodando o bot diretamente sem asyncio.run()
+    # Usar o método de inicialização assíncrona sem usar asyncio.run()
     import asyncio
-    asyncio.get_event_loop().run_until_complete(main())
+    application = Application.builder().token("TELEGRAM_TOKEN").build()
+    application.add_handler(CommandHandler("pesquisar", pesquisar))
+    application.run_polling()
