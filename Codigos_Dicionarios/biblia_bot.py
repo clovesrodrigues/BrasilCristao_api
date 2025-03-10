@@ -95,7 +95,7 @@ def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
 
     resultado = f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}"
     resultado += f"\n\n📝 TEXTO BÍBLICO : \n\n{texto_capitulo[:1024]}..." #{texto_capitulo[:512]}... se der problema
-    resultado += f"\n\n👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ \n🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷\n JESUS É TOP !"
+    resultado += f"\n\n👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ \n🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷\n JESUS É TOP !\n"
 
     if definicoes:
         resultado += "\n🔍 Definições das palavras-chave:\n"
