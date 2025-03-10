@@ -95,16 +95,16 @@ def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
 
     resultado = f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}"
     resultado += f"\n\n📝 Texto Bíblico: \n\n{texto_capitulo[:1024]}..." #{texto_capitulo[:512]}... se der problema
+    resultado += f"\n\n👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ \n🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷\n"
 
     if definicoes:
-        resultado += "\n🔍 Definições das palavras-chave:\n"
+        resultado += "\n\n🔍 Definições das palavras-chave:\n"
         resultado += "\n".join(f" - {palavra}: {definicao}" for palavra, definicao in definicoes.items())
 
     if sinonimos_encontrados:  # Alterado para a nova variável
         resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
         resultado += "\n".join(f" - {palavra}: {', '.join(sinonimos)}" for palavra, sinonimos in sinonimos_encontrados.items())
         resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
-        resultado += f"\n\n👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ \n\n🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷\n"
 
     return resultado
 
