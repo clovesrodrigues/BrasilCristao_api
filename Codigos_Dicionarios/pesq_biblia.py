@@ -2,19 +2,21 @@ import json
 from rake_nltk import Rake
 import re
 import spacy
+import nltk
+import logging  # Adicionando a importação do módulo logging
 
 # Configuração dos caminhos de arquivos
-#caminho_base = "/content/drive/My Drive/Colab Notebooks/" caminho_base + "biblia.json"
 biblia_path = "biblia.json"
 dicionario_path = "DICIONARIO_COMPLETO_definições.txt"
 sinonimos_path = "DIC_SINONIMOS.txt"
 
-# Carregar o arquivo JSON da Bíblia
-with open(biblia_path, 'r', encoding='utf-8-sig') as f:
-    biblia = json.load(f)
-
 # Carregar o modelo de linguagem do spaCy
 nlp = spacy.load("pt_core_news_sm")
+
+# Função para carregar o JSON da Bíblia
+def carregar_biblia():
+    with open(biblia_path, 'r', encoding='utf-8-sig') as f:
+        return json.load(f)
 
 # Função para carregar o dicionário de definições
 def carregar_dicionario(arquivo):
@@ -28,125 +30,74 @@ def carregar_dicionario(arquivo):
     return dicionario
 
 # Função para carregar o dicionário de sinônimos
-def carregar_dicionario_sinonomos(arquivo):
-    sinonomos = {}
+def carregar_dicionario_sinonimos(arquivo):
+    sinonimos = {}
     with open(arquivo, 'r', encoding='utf-8') as f:
         for linha in f:
-            palavra, lista_sinonomos = linha.strip().split('", "')
+            palavra, lista_sinonimos = linha.strip().split('", "')
             palavra = palavra.replace('"', '').strip()
-            sinonomos_lista = lista_sinonomos.replace('"', '').strip().split(', ')
-            sinonomos[palavra.lower()] = sinonomos_lista
-    return sinonomos
+            sinonimos_lista = lista_sinonimos.replace('"', '').strip().split(', ')
+            sinonimos[palavra.lower()] = sinonimos_lista
+    return sinonimos
 
 # Função para buscar definições no dicionário
 def buscar_definicoes(palavras_chave, dicionario):
-    definicoes = {}
-    for palavra in palavras_chave:
-        palavra_limpa = palavra.lower()
-        if palavra_limpa in dicionario:
-            definicoes[palavra] = dicionario[palavra_limpa]
-    return definicoes
+    return {palavra: dicionario[palavra.lower()] for palavra in palavras_chave if palavra.lower() in dicionario}
 
 # Função para buscar sinônimos no dicionário de sinônimos
-def buscar_sinonimos(palavras_chave, sinonomos):
-    sinonimos = {}
-    for palavra in palavras_chave:
-        palavra_limpa = palavra.lower()
-        if palavra_limpa in sinonomos:
-            sinonimos[palavra] = ", ".join(sinonomos[palavra_limpa])
-    return sinonimos
+def buscar_sinonimos(palavras_chave, sinonimos):
+    return {palavra: sinonimos[palavra.lower()] for palavra in palavras_chave if palavra.lower() in sinonimos}
 
 # Função para lematizar palavras-chave usando o spaCy
 def lematizar_palavras(palavras):
-    lemas = set()
-    for palavra in palavras:
-        doc = nlp(palavra)  # Análise da palavra com spaCy
-        for token in doc:
-            lemas.add(token.lemma_)  # Adiciona o lema (base) da palavra
-    return lemas
+    return {token.lemma_ for palavra in palavras for token in nlp(palavra)}
 
 # Inicializar o RAKE
 rake = Rake(language="portuguese", min_length=3)
 
-# Carregar os dicionários
+# Carregar os dados
+biblia = carregar_biblia()
 dicionario = carregar_dicionario(dicionario_path)
-sinonomos = carregar_dicionario_sinonomos(sinonimos_path)
+sinonimos = carregar_dicionario_sinonimos(sinonimos_path)
 
-while True:
-    # Pedir o nome do livro
-    livro_pesquisado = input("\n📖 Digite o nome do livro (abreviação, ex: gn para Gênesis) ou 'sair' para encerrar: ").strip().lower()
-    
-    if livro_pesquisado == "sair":
-        print("👋 Saindo...")
-        break
-
+# Função para pesquisar na Bíblia
+def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
+    logging.info(f"Pesquisando Bíblia: {livro_pesquisado}, capítulo: {capitulo_pesquisado}")  # Agora 'logging' está importado
     # Buscar o livro no JSON
     livro_encontrado = next((livro for livro in biblia if livro["abbrev"].lower() == livro_pesquisado), None)
 
     if not livro_encontrado:
-        print("❌ Livro não encontrado. Tente novamente.")
-        continue
+        return "❌ Livro não encontrado. Tente novamente."
 
-    print(f"\n📚 Livro encontrado: {livro_encontrado['abbrev'].upper()}")
+    if not capitulo_pesquisado.isdigit():
+        return "⚠️ Digite um número válido para o capítulo."
 
-    while True:
-        # Pedir o número do capítulo
-        capitulo_pesquisado = input("\n🔢 Digite o número do capítulo ou 'voltar' para escolher outro livro: ").strip().lower()
-        
-        if capitulo_pesquisado == "voltar" or capitulo_pesquisado == "sair":
-            break
+    capitulo_pesquisado = int(capitulo_pesquisado)
 
-        if not capitulo_pesquisado.isdigit():
-            print("⚠️ Digite um número válido.")
-            continue
-        
-        capitulo_pesquisado = int(capitulo_pesquisado)
+    if capitulo_pesquisado < 1 or capitulo_pesquisado > len(livro_encontrado["chapters"]):
+        return "❌ Capítulo não encontrado. Digite um número válido."
 
-        # Verificar se o capítulo existe no livro
-        if capitulo_pesquisado < 1 or capitulo_pesquisado > len(livro_encontrado["chapters"]):
-            print("❌ Capítulo não encontrado. Digite um número válido.")
-            continue
+    texto_capitulo = " ".join(livro_encontrado["chapters"][capitulo_pesquisado - 1])
 
-        # Pegar o texto do capítulo e gerar resumo com RAKE
-        texto_capitulo = " ".join(livro_encontrado["chapters"][capitulo_pesquisado - 1])
-        
-        # Limitar o resumo a 512 caracteres
-        if len(texto_capitulo) > 512:
-            texto_capitulo_resumido = texto_capitulo[:512] + "..."
-        else:
-            texto_capitulo_resumido = texto_capitulo
-        
-        # Gerar o resumo com RAKE
-        rake.extract_keywords_from_text(texto_capitulo)
-        palavras_chave = rake.get_ranked_phrases()[:5]  # Top 5 palavras-chave
+    rake.extract_keywords_from_text(texto_capitulo)
+    palavras_chave = rake.get_ranked_phrases()[:3]
 
-        # Tokenizar palavras-chave para garantir que estamos buscando palavras individuais
-        palavras_individuais = set()  # Usamos um set para evitar repetições
-        for chave in palavras_chave:
-            palavras_individuais.update(re.findall(r'\b\w+\b', chave))  # Tokeniza as palavras
+    palavras_individuais = set(re.findall(r'\b\w+\b', " ".join(palavras_chave)))
+    palavras_lematizadas = lematizar_palavras(palavras_individuais)
 
-        # Lematizar as palavras-chave para melhorar a busca no dicionário
-        palavras_lematizadas = lematizar_palavras(palavras_individuais)
+    definicoes = buscar_definicoes(palavras_lematizadas, dicionario)
+    sinonimos_encontrados = buscar_sinonimos(palavras_lematizadas, sinonimos)  # Renomeado a variável
 
-        # Buscar as definições para as palavras-chave lematizadas
-        definicoes = buscar_definicoes(palavras_lematizadas, dicionario)
+    resultado = f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}"
+    resultado += f"\n\n📝 Texto Bíblico: \n\n{texto_capitulo[:1024]}..." #{texto_capitulo[:512]}... se der problema
+    resultado += f"\n\n🏷️ Palavras-chave: {', '.join(palavras_chave)}\n"
 
-        # Buscar os sinônimos para as palavras-chave lematizadas
-        sinonimos = buscar_sinonimos(palavras_lematizadas, sinonomos)
+    if definicoes:
+        resultado += "\n🔍 Definições das palavras-chave:\n"
+        resultado += "\n".join(f" - {palavra}: {definicao}" for palavra, definicao in definicoes.items())
 
-        # Exibir saída
-        print(f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}")
-        print(f"\n📝 Resumo: {texto_capitulo_resumido}")
-        print(f"\n🏷️ Palavras-chave: {', '.join(palavras_chave)}\n")
-        
-        # Exibir definições
-        print("🔍 Definições das palavras-chave:")
-        for palavra, definicao in definicoes.items():
-            print(f" - {palavra}: {definicao}")
-        
-        # Exibir sinônimos
-        print("\n🔍 Sinônimos das palavras-chave:")
-        for palavra, sinonimo in sinonimos.items():
-            print(f" - {palavra}: {sinonimo}")
-        
-        # Permitir continuar pesquisando outros capítulos
+    if sinonimos_encontrados:  # Alterado para a nova variável
+        resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
+        resultado += "\n".join(f" - {palavra}: {', '.join(sinonimos)}" for palavra, sinonimos in sinonimos_encontrados.items())
+
+    return resultado
