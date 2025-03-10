@@ -6,6 +6,11 @@ import logging
 
 logging.basicConfig(level=logging.WARNING)
 
+bot = Bot("7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4")
+updater = Updater("7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4", use_context=True)
+# Configure o webhook
+updater.bot.set_webhook("https://your-domain.com/your-webhook-url")
+
 # Ativar logging para ajudar a depurar
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
