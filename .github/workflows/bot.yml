@@ -47,6 +47,6 @@ jobs:
       - name: Run Telegram bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}  # Aqui você usa o secret
-        run: 
+        run: |
           cd Codigos_Dicionarios
           python biblia_bot.py  
