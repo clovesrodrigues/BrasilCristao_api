@@ -45,5 +45,4 @@ async def main() -> None:
 
 # Chamar diretamente a função main sem gerenciar explicitamente o loop
 if __name__ == '__main__':
-    import asyncio
-    asyncio.run(main())  # Usar asyncio.run() de forma simples para inicializar o bot
+    main()  # Apenas chamar a função diretamente
