@@ -6,9 +6,9 @@ import nltk
 import logging  # Adicionando a importação do módulo logging
 
 # Configuração dos caminhos de arquivos
-biblia_path = "biblia.json"
-dicionario_path = "DICIONARIO_COMPLETO_definições.txt"
-sinonimos_path = "DIC_SINONIMOS.txt"
+biblia_path = "Codigos_Dicionarios/biblia.json"
+dicionario_path = "Codigos_Dicionarios/DICIONARIO_COMPLETO_definições.txt"
+sinonimos_path = "Codigos_Dicionarios/DIC_SINONIMOS.txt"
 
 # Carregar o modelo de linguagem do spaCy
 nlp = spacy.load("pt_core_news_sm")
