@@ -1,11 +1,12 @@
-import logging
+#import logging
 import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
-logger = logging.getLogger(__name__)
+
+#logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+#                    level=logging.INFO)
+#logger = logging.getLogger(__name__)
 
 # Função que será chamada quando o comando /pesquisar for enviado
 def pesquisar(update: Update, context: CallbackContext) -> None:
@@ -13,7 +14,7 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
     if len(context.args) < 2:
         update.message.reply_text(
             "📖 Para buscar um versículo da Bíblia, use o comando: /pesquisar <abreviação do livro> <capítulo> 📖\n\n"
-            "Por exemplo: /pesquisar jo 3\n\n"
+            "Por exemplo: /biblia jo 3\n\n"
             "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
             "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
         )
