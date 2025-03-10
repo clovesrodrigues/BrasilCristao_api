@@ -46,6 +46,6 @@ async def main() -> None:
 if __name__ == '__main__':
     # Usar o método de inicialização assíncrona sem usar asyncio.run()
     import asyncio
-    application = Application.builder().token("TELEGRAM_TOKEN").build()
+    application = Application.builder().token("7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4").build()
     application.add_handler(CommandHandler("pesquisar", pesquisar))
     application.run_polling()
