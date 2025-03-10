@@ -3,7 +3,6 @@ import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
-
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
