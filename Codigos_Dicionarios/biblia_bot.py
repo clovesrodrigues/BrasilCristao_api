@@ -40,10 +40,10 @@ async def main() -> None:
     # Registrar os comandos
     application.add_handler(CommandHandler("pesquisar", pesquisar))
 
-    # Iniciar o bot de forma assíncrona, sem chamar o loop diretamente
+    # Iniciar o bot de forma assíncrona
     await application.run_polling()
 
+# Chamar diretamente a função main sem gerenciar explicitamente o loop
 if __name__ == '__main__':
     import asyncio
-    # Apenas chama a função main de forma assíncrona sem usar asyncio.run()
-    asyncio.get_event_loop().run_until_complete(main())  # Não fecha o loop explicitamente
+    asyncio.run(main())  # Usar asyncio.run() de forma simples para inicializar o bot
