@@ -34,4 +34,6 @@ jobs:
         run: ls -R Codigos_Dicionarios  # Lista os arquivos da pasta para verificar se o biblia.json está lá
 
       - name: Run Telegram bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}  # Aqui você usa o secret
         run: python Codigos_Dicionarios/biblia_bot.py
