@@ -20,13 +20,18 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -r requirements.txt
+          pip install python-telegram-bot==19.1
 
       - name: Install SpaCy model
         run: python -m spacy download pt_core_news_sm
 
       - name: Download NLTK data
-        run: python -c "import nltk; nltk.download('stopwords')"  # <--- ADICIONE ESTA LINHA
+        run: python -c "import nltk; nltk.download('stopwords')"
+
+      - name: Debug - List files (opcional)
+        run: ls -R Codigos_Dicionarios  # Lista os arquivos da pasta para verificar se o biblia.json está lá
 
       - name: Run Telegram bot
         run: python Codigos_Dicionarios/biblia_bot.py
