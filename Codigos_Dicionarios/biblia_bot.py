@@ -95,7 +95,7 @@ def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
 
     resultado = f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}"
     resultado += f"\n\n📝 Texto Bíblico: \n\n{texto_capitulo[:1024]}..." #{texto_capitulo[:512]}... se der problema
-    resultado += f"\n\n🏷️ Palavras-chave: {', '.join(palavras_chave)}\n"
+    resultado += f"\n\n👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ \n🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷\n"
 
     if definicoes:
         resultado += "\n🔍 Definições das palavras-chave:\n"
@@ -104,6 +104,7 @@ def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
     if sinonimos_encontrados:  # Alterado para a nova variável
         resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
         resultado += "\n".join(f" - {palavra}: {', '.join(sinonimos)}" for palavra, sinonimos in sinonimos_encontrados.items())
+        resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
 
     return resultado
 
@@ -112,10 +113,11 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
     # Receber parâmetros de pesquisa
     if len(context.args) < 2:
         update.message.reply_text(
-    "📖 Para buscar um versículo da Bíblia, use o comando: /pesquisar <abreviação do livro> <capítulo> 📖\n\n"
+    "📖 Para buscar um versículo da Bíblia, use o comando: /biblia <abreviação do livro> <capítulo> 📖\n\n"
     "Por exemplo: /pesquisar jo 3\n\n"
     "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
     "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
+    "👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ 🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷"
     )
         return
 
