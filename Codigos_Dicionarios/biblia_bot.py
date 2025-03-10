@@ -113,7 +113,7 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
     if len(context.args) < 2:
         update.message.reply_text(
     "📖 Para buscar um versículo da Bíblia, use o comando: /biblia <abreviação do livro> <capítulo> 📖\n\n"
-    "Por exemplo: /pesquisar jo 3\n\n"
+    "Por exemplo: /biblia jo 3\n\n"
     "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
     "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
     "👉🏻Siga t.me/CRIADOR_DE_CONTEUDO_DIREITA 📖✨ 🇧🇷🇧🇷🇧🇷 E add @biblialize_bot no seu Grupo tb ! 🇧🇷🇧🇷🇧🇷"
