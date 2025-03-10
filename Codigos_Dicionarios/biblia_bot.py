@@ -2,6 +2,7 @@ import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
+from telegram import Bot
 import logging
 
 logging.basicConfig(level=logging.WARNING)
