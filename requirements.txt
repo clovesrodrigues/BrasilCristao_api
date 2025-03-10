@@ -1,3 +1,6 @@
-python-telegram-bot==20.0
 flask==2.1.1
 requests==2.26.0
+python-telegram-bot  # Para o bot Telegram
+rake-nltk            # Para o RAKE
+spacy                 # Para o spaCy
+nltk                 # Para o NLTK
