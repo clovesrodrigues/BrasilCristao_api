@@ -32,7 +32,7 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
 # Função principal que inicia o bot
 def main() -> None:
     # Substitua pelo seu token do bot
-    token = '7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4'
+    token = 'TELEGRAM_TOKEN'
 
     # Criar o updater e o dispatcher
     updater = Updater(token)
