@@ -2,7 +2,6 @@ import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
-from telegram import Bot
 
 # Configuração de logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -41,10 +40,13 @@ async def main() -> None:
     # Registrar os comandos
     application.add_handler(CommandHandler("pesquisar", pesquisar))
 
-    # Iniciar o bot de forma assíncrona, sem tentar manipular manualmente o loop de eventos
-    await application.run_polling()
+    # Iniciar o bot de forma assíncrona
+    try:
+        await application.run_polling()
+    finally:
+        await application.shutdown()
 
 if __name__ == '__main__':
-    # Executar o bot com asyncio, sem usar loop.run_until_complete
     import asyncio
+    # Executar o bot com asyncio, sem tentar manipular o loop manualmente
     asyncio.run(main())  # Usar asyncio.run() diretamente
