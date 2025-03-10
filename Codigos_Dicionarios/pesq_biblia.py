@@ -1,103 +1,53 @@
-import json
-from rake_nltk import Rake
-import re
-import spacy
-import nltk
-import logging  # Adicionando a importação do módulo logging
+import logging
+from telegram import Update
+from telegram.ext import Updater, CommandHandler, CallbackContext
+from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
 
-# Configuração dos caminhos de arquivos
-biblia_path = "biblia.json"
-dicionario_path = "DICIONARIO_COMPLETO_definições.txt"
-sinonimos_path = "DIC_SINONIMOS.txt"
+# Ativar logging para ajudar a depurar
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-# Carregar o modelo de linguagem do spaCy
-nlp = spacy.load("pt_core_news_sm")
+# Função que será chamada quando o comando /pesquisar for enviado
+def pesquisar(update: Update, context: CallbackContext) -> None:
+    # Receber parâmetros de pesquisa
+    if len(context.args) < 2:
+        update.message.reply_text(
+    "📖 Para buscar um versículo da Bíblia, use o comando: /pesquisar <abreviação do livro> <capítulo> 📖\n\n"
+    "Por exemplo: /pesquisar jo 3\n\n"
+    "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
+    "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
+    )
+        return
 
-# Função para carregar o JSON da Bíblia
-def carregar_biblia():
-    with open(biblia_path, 'r', encoding='utf-8-sig') as f:
-        return json.load(f)
+    livro = context.args[0]  # O primeiro parâmetro é o livro
+    capitulo = context.args[1]  # O segundo parâmetro é o capítulo
 
-# Função para carregar o dicionário de definições
-def carregar_dicionario(arquivo):
-    dicionario = {}
-    with open(arquivo, 'r', encoding='utf-8') as f:
-        for linha in f:
-            palavra, definicao = linha.strip().split('", "')
-            palavra = palavra.replace('"', '').strip()
-            definicao = definicao.replace('"', '').strip()
-            dicionario[palavra.lower()] = definicao
-    return dicionario
+    # Chamar a função pesquisar_biblia e obter o resultado
+    resultado = pesquisar_biblia(livro, capitulo)
 
-# Função para carregar o dicionário de sinônimos
-def carregar_dicionario_sinonimos(arquivo):
-    sinonimos = {}
-    with open(arquivo, 'r', encoding='utf-8') as f:
-        for linha in f:
-            palavra, lista_sinonimos = linha.strip().split('", "')
-            palavra = palavra.replace('"', '').strip()
-            sinonimos_lista = lista_sinonimos.replace('"', '').strip().split(', ')
-            sinonimos[palavra.lower()] = sinonimos_lista
-    return sinonimos
+    # Enviar o resultado de volta para o Telegram
+    update.message.reply_text(resultado)
 
-# Função para buscar definições no dicionário
-def buscar_definicoes(palavras_chave, dicionario):
-    return {palavra: dicionario[palavra.lower()] for palavra in palavras_chave if palavra.lower() in dicionario}
+# Função principal que inicia o bot
+def main() -> None:
+    # Substitua pelo seu token do bot
+    token = '7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4'
 
-# Função para buscar sinônimos no dicionário de sinônimos
-def buscar_sinonimos(palavras_chave, sinonimos):
-    return {palavra: sinonimos[palavra.lower()] for palavra in palavras_chave if palavra.lower() in sinonimos}
+    # Criar o updater e o dispatcher
+    updater = Updater(token)
 
-# Função para lematizar palavras-chave usando o spaCy
-def lematizar_palavras(palavras):
-    return {token.lemma_ for palavra in palavras for token in nlp(palavra)}
+    # Obter o dispatcher para registrar os handlers
+    dispatcher = updater.dispatcher
 
-# Inicializar o RAKE
-rake = Rake(language="portuguese", min_length=3)
+    # Registrar os comandos
+    dispatcher.add_handler(CommandHandler("biblia", pesquisar))
 
-# Carregar os dados
-biblia = carregar_biblia()
-dicionario = carregar_dicionario(dicionario_path)
-sinonimos = carregar_dicionario_sinonimos(sinonimos_path)
+    # Iniciar o bot
+    updater.start_polling()
 
-# Função para pesquisar na Bíblia
-def pesquisar_biblia(livro_pesquisado, capitulo_pesquisado):
-    logging.info(f"Pesquisando Bíblia: {livro_pesquisado}, capítulo: {capitulo_pesquisado}")  # Agora 'logging' está importado
-    # Buscar o livro no JSON
-    livro_encontrado = next((livro for livro in biblia if livro["abbrev"].lower() == livro_pesquisado), None)
+    # Manter o bot rodando
+    updater.idle()
 
-    if not livro_encontrado:
-        return "❌ Livro não encontrado. Tente novamente."
-
-    if not capitulo_pesquisado.isdigit():
-        return "⚠️ Digite um número válido para o capítulo."
-
-    capitulo_pesquisado = int(capitulo_pesquisado)
-
-    if capitulo_pesquisado < 1 or capitulo_pesquisado > len(livro_encontrado["chapters"]):
-        return "❌ Capítulo não encontrado. Digite um número válido."
-
-    texto_capitulo = " ".join(livro_encontrado["chapters"][capitulo_pesquisado - 1])
-
-    rake.extract_keywords_from_text(texto_capitulo)
-    palavras_chave = rake.get_ranked_phrases()[:3]
-
-    palavras_individuais = set(re.findall(r'\b\w+\b', " ".join(palavras_chave)))
-    palavras_lematizadas = lematizar_palavras(palavras_individuais)
-
-    definicoes = buscar_definicoes(palavras_lematizadas, dicionario)
-    sinonimos_encontrados = buscar_sinonimos(palavras_lematizadas, sinonimos)  # Renomeado a variável
-
-    resultado = f"\n📖 {livro_encontrado['abbrev'].upper()} - Capítulo {capitulo_pesquisado}"
-    resultado += f"\n\n📝 Texto Bíblico: \n\n{texto_capitulo[:1024]}..." #{texto_capitulo[:512]}... se der problema
-    resultado += f"\n\n🏷️ Palavras-chave: {', '.join(palavras_chave)}\n"
-
-    if definicoes:
-        resultado += "\n🔍 Definições das palavras-chave:\n"
-        resultado += "\n".join(f" - {palavra}: {definicao}" for palavra, definicao in definicoes.items())
-
-    if sinonimos_encontrados:  # Alterado para a nova variável
-        resultado += "\n\n🔍 Sinônimos das palavras-chave:\n"
-        resultado += "\n".join(f" - {palavra}: {', '.join(sinonimos)}" for palavra, sinonimos in sinonimos_encontrados.items())
-
-    return resultado
+if __name__ == '__main__':
+    main()
