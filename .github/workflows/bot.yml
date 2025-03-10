@@ -27,4 +27,4 @@ jobs:
 
       - name: Run bot
         run: |
-          #python seu_arquivo_do_bot.py  # Substitua pelo nome do seu script do bot
+          python Codigos_Dicionarios/biblia_bot.py   # Substitua pelo nome do seu script do bot
