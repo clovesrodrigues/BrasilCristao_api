@@ -23,12 +23,23 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install python-telegram-bot
+          pip install spacy
+          pip install nltk
 
-      #- name: Install SpaCy model
-        #run: python -m spacy download pt_core_news_sm
+      - name: Install SpaCy models
+        run: |
+          python -m spacy download pt_core_news_sm
+          python -m spacy download pt_core_news_md
+          python -m spacy download en_core_web_sm
+          python -m spacy download en_core_web_md
 
       - name: Download NLTK data
-        run: python -c "import nltk; nltk.download('stopwords')"
+        run: |
+          python -c "import nltk; nltk.download('punkt')"
+          python -c "import nltk; nltk.download('stopwords')"
+          python -c "import nltk; nltk.download('averaged_perceptron_tagger')"
+          python -c "import nltk; nltk.download('wordnet')"
+          python -c "import nltk; nltk.download('omw-1.4')"
 
       - name: Debug - List files (opcional)
         run: ls -R Codigos_Dicionarios  # Lista os arquivos da pasta para verificar se o biblia.json está lá
