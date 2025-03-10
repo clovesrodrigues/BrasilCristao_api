@@ -1,6 +1,6 @@
 flask 
 requests 
-python-telegram-bot
+python-telegram-bot==21.11.1
 rake-nltk            
 spacy                
 nltk                 
