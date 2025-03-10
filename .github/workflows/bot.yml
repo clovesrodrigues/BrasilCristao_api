@@ -22,7 +22,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install python-telegram-bot==19.1
+          pip install python-telegram-bot
 
       - name: Install SpaCy model
         run: python -m spacy download pt_core_news_sm
