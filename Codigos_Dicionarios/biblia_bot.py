@@ -1,4 +1,5 @@
 import logging
+import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from pesq_biblia import pesquisar_biblia  # Supondo que a função 'pesquisar_biblia' está no arquivo 'pesq_biblia.py'
@@ -12,11 +13,11 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
     # Receber parâmetros de pesquisa
     if len(context.args) < 2:
         update.message.reply_text(
-    "📖 Para buscar um versículo da Bíblia, use o comando: /pesquisar <abreviação do livro> <capítulo> 📖\n\n"
-    "Por exemplo: /pesquisar jo 3\n\n"
-    "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
-    "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
-    )
+            "📖 Para buscar um versículo da Bíblia, use o comando: /pesquisar <abreviação do livro> <capítulo> 📖\n\n"
+            "Por exemplo: /pesquisar jo 3\n\n"
+            "Certifique-se de usar a abreviação do livro em minúsculas (como 'gn' para Gênesis, 'ex' para Êxodo, etc.) e apenas o número do capítulo. "
+            "O bot é sensível a maiúsculas e minúsculas, então use letras minúsculas para a abreviação. Boa leitura! 🙏"
+        )
         return
 
     livro = context.args[0]  # O primeiro parâmetro é o livro
@@ -30,8 +31,12 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
 
 # Função principal que inicia o bot
 def main() -> None:
-    # Substitua pelo seu token do bot TELEGRAM_TOKEN
-    token = 'TELEGRAM_TOKEN'
+    # Substitua pelo seu token do bot TELEGRAM_TOKEN, agora pegando do ambiente
+    token = os.getenv('TELEGRAM_TOKEN')
+
+    if not token:
+        print("Erro: O token do Telegram não foi encontrado.")
+        return
 
     # Criar o updater e o dispatcher
     updater = Updater(token)
