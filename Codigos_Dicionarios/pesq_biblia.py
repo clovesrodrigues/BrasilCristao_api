@@ -5,6 +5,8 @@ import spacy
 import nltk
 import logging  # Adicionando a importação do módulo logging
 
+nltk.download('punkt') 
+
 # Configuração dos caminhos de arquivos
 biblia_path = "biblia.json"
 dicionario_path = "DICIONARIO_COMPLETO_definições.txt"
