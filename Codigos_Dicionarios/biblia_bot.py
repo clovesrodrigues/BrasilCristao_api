@@ -32,7 +32,7 @@ async def pesquisar(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 # Função principal que inicia o bot
 async def main() -> None:
     # Substitua pelo seu token do bot
-    token = 'TELEGRAM_TOKEN'
+    token = '7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4'
 
     # Criar o Application e o dispatcher
     application = Application.builder().token(token).build()
