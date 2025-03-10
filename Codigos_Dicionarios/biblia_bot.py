@@ -129,8 +129,12 @@ def pesquisar(update: Update, context: CallbackContext) -> None:
 
 # Função principal que inicia o bot
 def main() -> None:
-    # Substitua pelo seu token do bot TELEGRAM_TOKEN
-    token = 'TELEGRAM_TOKEN'
+    # Substitua pelo seu token do bot TELEGRAM_TOKEN, agora pegando do ambiente
+    token = os.getenv('TELEGRAM_TOKEN')
+
+    if not token:
+        print("Erro: O token do Telegram não foi encontrado.")
+        return
 
     # Criar o updater e o dispatcher
     updater = Updater(token)
