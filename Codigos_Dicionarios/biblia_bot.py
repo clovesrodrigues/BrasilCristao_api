@@ -32,7 +32,7 @@ async def pesquisar(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 # Função principal que inicia o bot
 async def main() -> None:
     # Substitua pelo seu token do bot
-    token = '7935309073:AAExRc1FgYYwLoxVi_nJ3mneObs9anI5GM4'
+    token = 'TELEGRAM_TOKEN'
 
     # Criar o Application e o dispatcher
     application = Application.builder().token(token).build()
@@ -44,5 +44,6 @@ async def main() -> None:
     await application.run_polling()
 
 if __name__ == '__main__':
+    # Rodando o bot diretamente sem asyncio.run()
     import asyncio
-    asyncio.run(main())
+    asyncio.get_event_loop().run_until_complete(main())
