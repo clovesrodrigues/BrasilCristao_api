@@ -8,10 +8,9 @@ import re
 import spacy
 
 # Configuração dos caminhos de arquivos
-caminho_base = "/content/drive/My Drive/Colab Notebooks/"
-biblia_path = caminho_base + "biblia.json"
-dicionario_path = caminho_base + "DICIONARIO_COMPLETO_definições.txt"
-sinonimos_path = caminho_base + "DIC_SINONIMOS.txt"
+biblia_path = "biblia.json"
+dicionario_path = "DICIONARIO_COMPLETO_definições.txt"
+sinonimos_path = "DIC_SINONIMOS.txt"
 
 # Carregar o modelo de linguagem do spaCy
 nlp = spacy.load("pt_core_news_sm")
