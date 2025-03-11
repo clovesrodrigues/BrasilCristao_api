@@ -1,5 +1,5 @@
 # BrasilCristao_api
-Programas e testes de codigo em Python com viés religioso.
+Programas e testes de codigo em Python para criação de Inteligência Artificial a partir de palavra.
 
 Temos exemplos de códigos para Bot de Telegram, tratamentos de palavras, pesquisas e resumos feitos de maneira automática com várias téctnicas de summarizer, e muitos dicionários criados com automação feita com bibliotecas como o Spacy, Nltk, Transformers, e outras. 
 
